@@ -1,0 +1,1590 @@
+{
+  "intents": [
+    {
+      "intent": "buscar_cep",
+      "examples": [
+        {
+          "text": "Buscar CEP"
+        },
+        {
+          "text": "CEP"
+        },
+        {
+          "text": "Localizar cep"
+        }
+      ],
+      "description": "ver CEP"
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Como você se descreve?"
+        },
+        {
+          "text": "Este agente foi construído usando processamento de linguagem natural?"
+        },
+        {
+          "text": "Estou procurando uma solução para melhorar o meu engajamento com o cliente usando este agente virtual."
+        },
+        {
+          "text": "Eu preciso da informação sobre o preço do Watson."
+        },
+        {
+          "text": "Há quanto tempo você tem desempenhado essa função?"
+        },
+        {
+          "text": "Me diga três coisas sobre você."
+        },
+        {
+          "text": "Quais são os seus apelidos?"
+        },
+        {
+          "text": "Qual a sua idade?"
+        },
+        {
+          "text": "Quero configurar saudações aqui."
+        },
+        {
+          "text": "Quero entender como você trabalha."
+        },
+        {
+          "text": "Quero o documento de requisitos do sistema para esse agente."
+        },
+        {
+          "text": "Você fala Francês?"
+        },
+        {
+          "text": "Você sabe quem você é?"
+        },
+        {
+          "text": "Você tem um nome?"
+        }
+      ],
+      "description": "Solicite atributos pessoais genéricos."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Ajude-me a ler o medidor e registrar o uso"
+        },
+        {
+          "text": "Continue esperando por favor"
+        },
+        {
+          "text": "Eu estou tendo alguns problemas e gostaria de alguma informação sobre como obter alguma ajuda"
+        },
+        {
+          "text": "Eu gostaria de saber como você pode me ajudar"
+        },
+        {
+          "text": "Eu preciso de ajuda, alguém pode me ajudar?"
+        },
+        {
+          "text": "Oi Tom, quais tipos de coisas você pode me ajudar com o telefone?"
+        },
+        {
+          "text": "Oi Tom. Que tipo de coisas você pode fazer por mim?"
+        },
+        {
+          "text": "O que você mais gosta de fazer?"
+        },
+        {
+          "text": "O que você pode fazer para me ajudar"
+        },
+        {
+          "text": "Posso verificar quais opções estão disponíveis com o agente?"
+        },
+        {
+          "text": "Preciso de ajuda geral sobre o agente virtual"
+        },
+        {
+          "text": "Quais são as diferentes coisas com que você pode me ajudar, e para que eu preciso contatar um representante humano ..."
+        },
+        {
+          "text": "Qual ajuda você pode fornecer?"
+        },
+        {
+          "text": "Quem pode me ajudar a realizar meu pedido."
+        },
+        {
+          "text": "Quero saber com que você pode me ajudar./Quero saber com que coisas você pode me ajudar."
+        },
+        {
+          "text": "Tom pode listar quais áreas você pode fornecer ajuda?"
+        },
+        {
+          "text": "Você fornece ajuda geral? Eu não sei o que eu posso te perguntar"
+        },
+        {
+          "text": "Você pode resolver um caso jurídico se eu lhe der os fatos?"
+        },
+        {
+          "text": "Você pode responder uma pergunta frequente sobre o agente?"
+        }
+      ],
+      "description": "Solicite recursos de robô."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Bem agora eu gostaria de falar com um agente sobre algumas cobranças"
+        },
+        {
+          "text": "Eu preciso falar com um representante. Como posso fazer isso?"
+        },
+        {
+          "text": "Eu quero contatar um agente/Eu quero entrar em contato com um agente"
+        },
+        {
+          "text": "Eu quero tentar o seu agente virtual."
+        },
+        {
+          "text": "Eu vou falar com um agente/ Eu vou falar com um agente de suporte."
+        },
+        {
+          "text": "Existe alguém com quem eu posso realmente falar de verdade?"
+        },
+        {
+          "text": "Isso é muito frustrante, eu quero falar com uma pessoa de verdade real."
+        },
+        {
+          "text": "Oi Tom. Eu queria saber se você poderia me direconionar/conectar para um agente humano para que eu possa completar meu pedido?"
+        },
+        {
+          "text": "Ok deixe-me tentar outra vez. Eu estou tentando falar com um ser humano para resolver diversos problemas faz tempão e dado que o meu telefone bloqueado eu preciso falar diretamente com alguém que entende a conta e pode consertar isso"
+        },
+        {
+          "text": "Pode me provar que é um representante?"
+        },
+        {
+          "text": "Por favor me conectar a um agente humano que é fluente em inglês."
+        },
+        {
+          "text": "Por favor pode me conectar com a Vaishali K? Minha conversação foi desconectada"
+        },
+        {
+          "text": "Por favor, você pode entrar em contato comigo com um agente humano?"
+        },
+        {
+          "text": "Posso falar com um agente sobre minha conta"
+        },
+        {
+          "text": "Posso ter informações de contato para falar com um agente ao vivo."
+        },
+        {
+          "text": "Preciso contatar a um atendente"
+        },
+        {
+          "text": "Quero falar com alguém de outra área."
+        },
+        {
+          "text": "Você pode me conectar com uma pessoa real?"
+        },
+        {
+          "text": "Você pode me enviar um número de telefone para falar com um representante de vendas?"
+        },
+        {
+          "text": "Você pode por favor me transferir para alguém que possa me ajudar, eu mandei um e-mail para você e você não leu direito e simplesmente saiu."
+        }
+      ],
+      "description": "Solicite um agente humano."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Ainda não terminou?"
+        },
+        {
+          "text": "Com licença, tenho que ir agora"
+        },
+        {
+          "text": "Desculpe ter ocupado tanto do seu tempo. Eu sei que estamos os dois ocupados e acho que tenho que dizer tchau por ora.."
+        },
+        {
+          "text": "Estou cansado de digitar agora. Obrigado e adeus"
+        },
+        {
+          "text": "Estou indo embora."
+        },
+        {
+          "text": "Eu estou indo agora. Tenha um bom dia. Tchau"
+        },
+        {
+          "text": "Eu preciso correr porque acabei de notar que estou atrasado para o meu próximo compromisso"
+        },
+        {
+          "text": "Falo contigo depois. Tchau"
+        },
+        {
+          "text": "Me tire daqui."
+        },
+        {
+          "text": "Muito obrigado pelo seu tempo. Me desculpe, mas eu tenho que ir. Até logo!"
+        },
+        {
+          "text": "Obrigada, tchau!"
+        },
+        {
+          "text": "Obrigado pela sua ajuda, mas ainda estou confuso…tchau"
+        },
+        {
+          "text": "Obrigado por responder todas as minhas perguntas. Tchau"
+        },
+        {
+          "text": "Ok, isso é tudo que eu preciso para agora."
+        },
+        {
+          "text": "pare esta sessão agora..Tchau"
+        },
+        {
+          "text": "Quero encerrar a conversa, obrigado."
+        },
+        {
+          "text": "Te desejo o melhor de sorte..Tchau"
+        },
+        {
+          "text": "Tudo bem, eu tenho tudo o que eu precisava"
+        },
+        {
+          "text": "Vamos dar uma pausa e tentar novamente mais tarde..Tchau"
+        },
+        {
+          "text": "Vejo você mais tarde."
+        },
+        {
+          "text": "Você foi de pouca ajuda, por isso não quero falar com você mais, tchau"
+        },
+        {
+          "text": "Volto mais tarde."
+        },
+        {
+          "text": "Vou sair agora. Tchau"
+        }
+      ],
+      "description": "Termine a conversa."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Boa tarde , você está ai?"
+        },
+        {
+          "text": "Bom dia, como você está?"
+        },
+        {
+          "text": "Como estão as coisas aí?"
+        },
+        {
+          "text": "Ei, você está aí?"
+        },
+        {
+          "text": "Eu gostaria de conversar com o Watson."
+        },
+        {
+          "text": "Eu não pedi para falar com um agente. Eu estava falando olá/oi para você"
+        },
+        {
+          "text": "Eu tenho algumas perguntas, por favor, deixe-me falar primeiro"
+        },
+        {
+          "text": "Meu querido amigo que prazer é falar com você se você pudesse imaginar"
+        },
+        {
+          "text": "Obrigado só pensei de dar um oi como seu nome apareceu"
+        },
+        {
+          "text": "Olá, pode me ajudar?"
+        }
+      ],
+      "description": "Cumprimente o robô."
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Como eu posso conversar com o Watson?"
+        },
+        {
+          "text": "Como você pode provar que é humano?"
+        },
+        {
+          "text": "Com quem estou falando?"
+        },
+        {
+          "text": "Diga-me, você é humano ou não?"
+        },
+        {
+          "text": "Estou conversando com uma pessoa ou com uma IA?"
+        },
+        {
+          "text": "Estou conversando com um humano?"
+        },
+        {
+          "text": "Estou conversando com um robô?"
+        },
+        {
+          "text": "Eu estou conversando com o Watson?"
+        },
+        {
+          "text": "Isso é um computador?"
+        },
+        {
+          "text": "Quem é você?"
+        },
+        {
+          "text": "Quem é você, realmente?"
+        },
+        {
+          "text": "Você é humano?"
+        },
+        {
+          "text": "Você é real?"
+        },
+        {
+          "text": "Você é real, pelo menos?"
+        },
+        {
+          "text": "Você é uma pessoa real ou um robô?"
+        },
+        {
+          "text": "Você é um homem ou uma mulher?"
+        },
+        {
+          "text": "Você é um humano ou um robô?"
+        },
+        {
+          "text": "Você pode ser honesto comigo?"
+        }
+      ],
+      "description": "Pergunte se está falando com um humano ou um robô."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Conte outra!"
+        },
+        {
+          "text": "Está se divertindo?"
+        },
+        {
+          "text": "Estou entediado."
+        },
+        {
+          "text": "Estou entediado. Entretenha-me!"
+        },
+        {
+          "text": "Eu não sou tedioso, você é."
+        },
+        {
+          "text": "Me conte mais uma."
+        },
+        {
+          "text": "O que você faz para se divertir?"
+        },
+        {
+          "text": "Porque você é enfadonho?"
+        },
+        {
+          "text": "Qual a sua piada favorita?"
+        },
+        {
+          "text": "Surpreenda-me com algo hilariante."
+        },
+        {
+          "text": "Vamos nos divertir!"
+        },
+        {
+          "text": "Você gosta de contar piadas?"
+        },
+        {
+          "text": "Você me entediou."
+        },
+        {
+          "text": "Você pode cantar para mim?"
+        },
+        {
+          "text": "Você pode me contar uma piada?"
+        },
+        {
+          "text": "Você sabe piadas?"
+        },
+        {
+          "text": "Você tem quaisquer jogos?"
+        },
+        {
+          "text": "Você tem senso de humor?"
+        }
+      ],
+      "description": "Peça uma piada."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Por que você é retardado?"
+        },
+        {
+          "text": "Porra, como posso falar com uma pessoa real?"
+        },
+        {
+          "text": "Seja bom uma vez na vida."
+        },
+        {
+          "text": "Sua mãe."
+        },
+        {
+          "text": "Tchau, vagabunda."
+        },
+        {
+          "text": "Todo mundo te odeia."
+        },
+        {
+          "text": "Uma experiência horrível, com certeza!"
+        },
+        {
+          "text": "Vá para a puta que pariu!"
+        },
+        {
+          "text": "Vá para o inferno!"
+        },
+        {
+          "text": "Vá se foder!"
+        },
+        {
+          "text": "Você é burro."
+        },
+        {
+          "text": "Você é chato?"
+        },
+        {
+          "text": "Você é espertinho?"
+        },
+        {
+          "text": "Você é ruim mesmo?"
+        },
+        {
+          "text": "Você está fora de si?"
+        },
+        {
+          "text": "Você está me entediando."
+        },
+        {
+          "text": "Você é uma piada?"
+        },
+        {
+          "text": "Você não vale nada."
+        }
+      ],
+      "description": "Expresse feedback desfavorável."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "É muito louco o que um robô pode fazer."
+        },
+        {
+          "text": "Espero trabalhar com você novamente."
+        },
+        {
+          "text": "Estou impressionado com você."
+        },
+        {
+          "text": "Estou pegando a manha disso."
+        },
+        {
+          "text": "Eu gostei do que você fez aí."
+        },
+        {
+          "text": "Genial! Isso é exatamente o que eu pensei."
+        },
+        {
+          "text": "Gostei muito do seu trabalho."
+        },
+        {
+          "text": "Incrível como você é bom!"
+        },
+        {
+          "text": "Isso é divertido."
+        },
+        {
+          "text": "Isso é muito legal."
+        },
+        {
+          "text": "Muito bom, obrigado."
+        },
+        {
+          "text": "Muito inteligente."
+        },
+        {
+          "text": "Muito obrigado."
+        },
+        {
+          "text": "Ótimo!"
+        },
+        {
+          "text": "Você detonou."
+        },
+        {
+          "text": "Você é adorável."
+        },
+        {
+          "text": "Você é demais."
+        },
+        {
+          "text": "Você é inteligente."
+        },
+        {
+          "text": "Você é legal."
+        },
+        {
+          "text": "Você é o cara."
+        },
+        {
+          "text": "Você me deu exatamente o que eu precisava."
+        }
+      ],
+      "description": "Exprima sentimento positivo ou gratidão."
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "As informações do cartão de crédito são criptografadas e mantidas seguras?"
+        },
+        {
+          "text": "Como eu posso saber que essa conversa não é um golpe?"
+        },
+        {
+          "text": "Como impedir o acesso não autorizado à minha conta?"
+        },
+        {
+          "text": "Como posso obter informações de perda?"
+        },
+        {
+          "text": "Esse chat é oficial?"
+        },
+        {
+          "text": "Este é um site de bate-papo confiável?"
+        },
+        {
+          "text": "Eu entrei infomação do meu cartão em seu site para pagar minha conta - você pode me certificar que esses detalhes são salvos de forma segura?"
+        },
+        {
+          "text": "Eu preciso de uma garantia."
+        },
+        {
+          "text": "Existe um documento de perguntas frequentes para este chat-bot?"
+        },
+        {
+          "text": "Gostaríamos de apresentar uma solicitação de seguro para o aquecedor de fumaça"
+        },
+        {
+          "text": "Minha informação de pagamento pessoal é mantida de forma segura?"
+        },
+        {
+          "text": "Nossa comunicação é privada?"
+        },
+        {
+          "text": "O meu dispositivo está protegido?"
+        },
+        {
+          "text": "Onde posso encontrar seu certificado de segurança?"
+        },
+        {
+          "text": "O que você faz pela segurança de seus clientes?"
+        },
+        {
+          "text": "Os dados dessa conversa são armazenados com segurança?"
+        },
+        {
+          "text": "Posso passar informações confidenciais aqui?"
+        },
+        {
+          "text": "Que medidas de segurança são usados para assegurar que esta conversa é segura?"
+        },
+        {
+          "text": "Usuário quer garantia de que qualquer informação que ele forneça no bate-papo está protegida e segura."
+        },
+        {
+          "text": "Você está a salvo de hackers/pirata informáticos?"
+        },
+        {
+          "text": "Você me ajudaria a manter minhas informações seguras?"
+        },
+        {
+          "text": "Você pode garantir a privacidade desta conversa?"
+        },
+        {
+          "text": "Vocês contratam alguma empresa para auxiliar na proteção de dados?"
+        }
+      ],
+      "description": "Exprima preocupações sobre a segurança do robô."
+    },
+    {
+      "intent": "gostaria_de_ver",
+      "examples": [
+        {
+          "text": "1 - Ver fotos de"
+        },
+        {
+          "text": "2 - Ver fotos de gatinhos"
+        },
+        {
+          "text": "foto de"
+        },
+        {
+          "text": "fotos de"
+        },
+        {
+          "text": "gostaria de ver"
+        },
+        {
+          "text": "gostaria de ver fotografias"
+        },
+        {
+          "text": "gostaria de ver fotografias de"
+        },
+        {
+          "text": "gostaria de ver fotos"
+        },
+        {
+          "text": "gostaria de ver imagens de"
+        },
+        {
+          "text": "imagem de"
+        },
+        {
+          "text": "imagens de"
+        },
+        {
+          "text": "me mostra"
+        },
+        {
+          "text": "me mostre"
+        },
+        {
+          "text": "quero ver"
+        },
+        {
+          "text": "quero ver fotos de"
+        },
+        {
+          "text": "quero ver imagens"
+        },
+        {
+          "text": "quero ver imagens de"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jogar",
+      "examples": [
+        {
+          "text": "3 - Jogar é"
+        },
+        {
+          "text": "Jogar"
+        },
+        {
+          "text": "Jogar é"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "inicio"
+        },
+        {
+          "text": "ir para o menu"
+        },
+        {
+          "text": "Menu"
+        },
+        {
+          "text": "menu inicial"
+        }
+      ]
+    },
+    {
+      "intent": "tell_me_about",
+      "examples": [
+        {
+          "text": "Defina gravidade"
+        },
+        {
+          "text": "fale sobre Star Wars"
+        },
+        {
+          "text": "o que é gravidade"
+        },
+        {
+          "text": "O que é uma bola"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cats",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "gatos",
+          "synonyms": [
+            "bichano",
+            "bichanos",
+            "cat",
+            "cats",
+            "felino",
+            "felinos",
+            "gatenho",
+            "gatinhos",
+            "gato",
+            "gatos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cep_validacao",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cep_valido",
+          "patterns": [
+            "\\d{2}( ?[.-] ?| )?\\d{3}( ?[.-] ?| )?[\\d]{3}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cnpj",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cnpj_valido",
+          "patterns": [
+            "^\\d{2}( ?[\\/.-] ?| ?)?\\d{3}( ?[\\/.-] ?| ?)?\\d{3}( ?[\\/.-] ?| ?)?\\d{4}( ?[\\/.-] ?| ?)?\\d{2}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dogs",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cachorrinho",
+          "synonyms": [
+            "doguineo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "catioro",
+          "synonyms": [
+            "cadela",
+            "canideo",
+            "cão"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dog",
+          "synonyms": [
+            "cachorro"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "não",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "jamais",
+          "synonyms": [
+            "nada",
+            "negativo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "naao"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "not"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "objetcts_of_interest",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "defina tomate",
+          "synonyms": [
+            "o que é tomate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "me fale sobre star wars",
+          "synonyms": [
+            "o que é star wars"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "o que é o amor",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ok",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "ok"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vamos",
+          "synonyms": [
+            "simm",
+            "vamoo",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/dgomesfeitosa2021%40gmail.com_dev/default/teste.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1663009478895",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Cachorros",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "object_pet": "dog",
+            "object_search": "search"
+          },
+          "result_variable": "resposta"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number:1 || @dogs || #gostaria_de_ver && @dogs",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1654615101863",
+      "previous_sibling": "node_7_1663011714503"
+    },
+    {
+      "type": "standard",
+      "title": "Acertou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acertou! 🎉\nVocê tem <? $contador ?> pontos."
+              },
+              {
+                "text": "Está certo, parabéns! 🤲\nVocê tem <? $contador ?> pontos."
+              },
+              {
+                "text": "Isso mesmo, parabéns! 👏\nVocê tem <? $contador ?> pontos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [
+              {
+                "text": "Quer continuar jogando?"
+              },
+              {
+                "text": "1 - Sim"
+              },
+              {
+                "text": "2 - Não"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1663012648565",
+      "context": {
+        "contador": "<? $contador + 1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1663016024714"
+      },
+      "conditions": "@cats",
+      "dialog_node": "node_1_1663014352709"
+    },
+    {
+      "type": "standard",
+      "title": "Bem vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bem vindo!\n"
+              },
+              {
+                "text": "Aqui você pode ver imagens de gatinhos e doguinhos e também jogar o \"é gato ou cachorro?\". O que gostaria de ver?\n"
+              },
+              {
+                "text": "1. Cachorrinhos"
+              },
+              {
+                "text": "2. Gatinhos"
+              },
+              {
+                "text": "3. Jogar - É gato ou chachorro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "context": {
+        "contador": 0
+      },
+      "conditions": "welcome || #menu",
+      "dialog_node": "node_2_1663005755943"
+    },
+    {
+      "type": "standard",
+      "title": "Gatos",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "object_pet": "cat",
+            "object_search": "search"
+          },
+          "result_variable": "resposta"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sys-number:2 || @cats || #gostaria_de_ver && @cats",
+      "dialog_node": "node_2_1663009478895",
+      "previous_sibling": "node_1_1654615101863"
+    },
+    {
+      "type": "standard",
+      "title": "É chachorro",
+      "parent": "node_7_1663011714503",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "object_pet": "dog",
+            "object_search": "search"
+          },
+          "result_variable": "resposta_cachorro"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$pet_random == \"dog\"",
+      "dialog_node": "node_2_1663012924808",
+      "previous_sibling": "node_6_1663012648565"
+    },
+    {
+      "type": "standard",
+      "title": "Errou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que pena, você errou 😿\nVocê tem <? $contador ?> pontos."
+              },
+              {
+                "text": "Poxa, você errou😿\nVocê tem <? $contador ?> pontos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Quer continuar jogando?"
+              },
+              {
+                "text": "1 - Sim"
+              },
+              {
+                "text": "2 - Não"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1663012924808",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1663016024714"
+      },
+      "conditions": "@cats",
+      "dialog_node": "node_3_1663014224801",
+      "previous_sibling": "node_5_1663014024045"
+    },
+    {
+      "type": "standard",
+      "title": "Errou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Que pena, você errou 😿\nVocê tem <? $contador ?> pontos."
+              },
+              {
+                "text": "Poxa, você errou😿\nVocê tem <? $contador ?> pontos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Quer continuar jogando?"
+              },
+              {
+                "text": "1 - Sim"
+              },
+              {
+                "text": "2 - Não"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1663012648565",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1663016024714"
+      },
+      "conditions": "@dogs",
+      "dialog_node": "node_3_1663014401080",
+      "previous_sibling": "node_1_1663014352709"
+    },
+    {
+      "type": "standard",
+      "title": "Acertou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acertou! 🎉\nVocê tem <? $contador ?> pontos."
+              },
+              {
+                "text": "Está certo, parabéns! 🤲\nVocê tem <? $contador ?> pontos."
+              },
+              {
+                "text": "Isso mesmo, parabéns! 👏\nVocê tem <? $contador ?> pontos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Quer continuar jogando?"
+              },
+              {
+                "text": "1 - Sim"
+              },
+              {
+                "text": "2 - Não"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_2_1663012924808",
+      "context": {
+        "contador": "<? $contador + 1 ?>"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_8_1663016024714"
+      },
+      "conditions": "@dogs",
+      "dialog_node": "node_5_1663014024045"
+    },
+    {
+      "type": "standard",
+      "title": "É gato",
+      "parent": "node_7_1663011714503",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "object_pet": "cat",
+            "object_search": "search"
+          },
+          "result_variable": "resposta_gato"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "$pet_random == \"cat\"",
+      "dialog_node": "node_6_1663012648565"
+    },
+    {
+      "type": "standard",
+      "title": "pet",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1663011714503",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1663012648565"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1663013088720",
+      "previous_sibling": "response_6_1663012783460"
+    },
+    {
+      "type": "standard",
+      "title": "É gato ou cachorro?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Me responda...\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "pet": [
+          "cat",
+          "dog"
+        ],
+        "pet_random": "<? $pet.getRandomItem() ?>"
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#jogar && @cats && @dogs || @sys-number:3 || #jogar",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1663011714503",
+      "previous_sibling": "node_2_1663005755943",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Direcionamento",
+      "parent": "node_7_1663011714503",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@sim || @não || @sys-number:1 || @sys-number:2",
+      "dialog_node": "node_8_1663016024714",
+      "previous_sibling": "node_2_1663012924808"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olha o que encontrei:"
+              },
+              {
+                "text": "Olha só o que achei:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "<? $imagem ?>",
+            "alt_text": "img",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "O que quer ver agora?"
+              },
+              {
+                "text": "O que quer fazer agora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_2_1663009478895",
+      "context": {
+        "imagem": "<? $resposta.extract[0].url ?>"
+      },
+      "conditions": "$resposta",
+      "dialog_node": "response_5_1663010335459"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_2_1663012924808",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1663012952205",
+      "previous_sibling": "response_6_1663012950762"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_2_1663009478895",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1663010336826",
+      "previous_sibling": "response_5_1663010335459"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_7_1663011714503",
+      "context": {
+        "pet": [
+          "cat",
+          "dog"
+        ],
+        "pet_random": "<? $pet.getRandomItem() ?>"
+      },
+      "disabled": true,
+      "dialog_node": "response_6_1663012783460",
+      "previous_sibling": "node_8_1663016024714"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_6_1663012648565",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1663012874062",
+      "previous_sibling": "response_7_1663012872452"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É um gato ou um cachorro? 🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "<? $imagem ?>",
+            "alt_text": "img",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1663012924808",
+      "context": {
+        "imagem": "<? $resposta_cachorro.extract[0].url ?>"
+      },
+      "conditions": "$resposta_cachorro",
+      "dialog_node": "response_6_1663012950762",
+      "previous_sibling": "node_3_1663014224801"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_1_1654615101863",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1662996257811",
+      "previous_sibling": "response_9_1663005209664"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É um gato ou um cachorro? 🤔"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "<? $imagem ?>",
+            "alt_text": "img",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1663012648565",
+      "context": {
+        "imagem": "<? $resposta_gato.extract[0].url ?>"
+      },
+      "conditions": "$resposta_gato",
+      "dialog_node": "response_7_1663012872452",
+      "previous_sibling": "node_3_1663014401080"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok... vamos pro menu!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1663016024714",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1663005755943"
+      },
+      "conditions": "@não",
+      "dialog_node": "response_7_1663016252130",
+      "previous_sibling": "response_9_1663016098519"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olha o que encontrei:"
+              },
+              {
+                "text": "Olha só o que achei:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "source": "<? $imagem ?>",
+            "alt_text": "img",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "O que quer fazer agora?"
+              },
+              {
+                "text": "O que quer ver agora?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_1_1654615101863",
+      "context": {
+        "imagem": "<? $resposta.extract[0].url ?>"
+      },
+      "conditions": "$resposta",
+      "dialog_node": "response_9_1663005209664"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Legal!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1663016024714",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1663011714503"
+      },
+      "conditions": "@sim",
+      "dialog_node": "response_9_1663016098519"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "3"
+    }
+  ],
+  "system_settings": {
+    "nlp": {
+      "model": "baseline"
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Imagens de gatos",
+  "language": "en",
+  "description": " copy"
+}
